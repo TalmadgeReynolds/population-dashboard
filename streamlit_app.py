@@ -1,13 +1,3 @@
-import openai
-import os
-
-openai.api_key = os.getenv("OPENAI_API_KEY")
-
-if openai.api_key:
-    st.success("API key loaded successfully from environment variables!")
-else:
-    st.error("Failed to load API key from environment variables.")
-
 #######################
 # Import libraries
 import streamlit as st
